@@ -74,7 +74,7 @@
                   "PortBindings": {
                     "5000/tcp": [
                       {
-                        "HostPort": "5000"
+                        "HostPort": "$SPEECH_CONTAINER_PORT"
                       }
                     ]
                   }
@@ -103,7 +103,7 @@
                   "PortBindings": {
                     "5000/tcp": [
                       {
-                        "HostPort": "5001"
+                        "HostPort": "$LUIS_CONTAINER_PORT"
                       }
                     ]
                   }
