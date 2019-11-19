@@ -12,8 +12,8 @@
             "registryCredentials": {
               "containerpreview": {
                 "address": "$CONTAINER_PREVIEW_URL",
-                "password": "$CONTAINER_PREVIEW_USER",
-                "username": "$CONTAINER_PREVIEW_PASS"
+                "password": "$CONTAINER_PREVIEW_PASS",
+                "username": "$CONTAINER_PREVIEW_USER"
               }
             }
           }
